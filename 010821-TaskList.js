@@ -76,20 +76,20 @@ function filterTasks(e){
 //Delete a task
 function deleteTask(e) {
     let item = e.target.parentElement;
-    if(item.classList.contains('delete-item')){
-        if(confirm('Do you want to delete this task?')){
-            item.parentElement.remove();
-            let tasks = getTasks();
-            tasks.splice(tasks.indexOf(item.parentElement), 1);
-            localStorage.setItem("tasks", tasks);
-        }
+    if(item.classList.contains("delete-item")){
+        item.parentElement.remove();
+        let tasks = getTasks();
+        tasks.splice(tasks.indexOf(item.parentElement), 1);
+        localStorage.setItem("tasks", tasks);
     }
 }
 
 //Clear all tasks
 function clearAll(){
-    while(taskList.firstChild) {
-        taskList.removeChild(taskList.firstChild);
+    if(confirm("Do you want to clear all tasks?")){
+        while(taskList.firstChild) {
+            taskList.removeChild(taskList.firstChild);
+        }
+        localStorage.clear();
     }
-    localStorage.clear();
 }
