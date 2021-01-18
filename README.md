@@ -19,3 +19,11 @@ Demo page: [GitHub User Card](https://nguyennganhi.github.io/mindx-web-fullstack
 * Enter a GitHub username (validate if the username exists)
 * Display the information of that user name using GitHub users API in the form `https://api.github.com/users/{name}` 
 * Information include: name, avatar, email, company, number of repositories, number of followers, number of following
+
+## Day 3 - Jan 15, 2021: [[210115]](210115) Node.js
+
+* [data.json](210115/data.json) includes an array of students, each student is in the form of `{"_id":"2bd9g8","name":"Phạm Nghĩa","mark":2}`
+* Fun `npm i` to install dependencies
+* Functions are implemented in [index.js](210115/index.js)
+* Functions are tested in [test.js](210115/test.js) using `npm run test` 
+ 
