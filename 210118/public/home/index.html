@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'></script>
+
+  <title>Home Page</title>
+</head>
+<body>
+  <div class='container'>
+  <div class='row'>
+  <div class='col s12'>
+    <div class='card'>
+
+			<!--Navigation bar-->
+			<nav class='teal'>
+			<div class='nav-wrapper'>
+				<ul id='nav-mobile' class='left'>
+					<li><a href='/'>Home Page</a></li>
+					<li><a href='/ask'>Ask Question</a></li>
+				</ul>
+			</div>
+			</nav>
+
+			<!--Vote on existing questions-->
+      <div class='card-action valign center'>
+				<span class='card-title'>
+					Vote Yes or No
+				</span>
+				<p class='teal-text' style='padding-bottom: 10px'>Answer questions from other people</p>
+
+        <!--Voting buttons-->
+        <div class="row">
+				<div class='col s6'>	
+          <button id='btn-yes' class='btn green'>yes</button>
+				</div>
+				<div class='col s6'>	
+          <button id='btn-no' class='btn red'>no</button>
+        </div>
+        </div>
+				
+        <!--Display questions-->
+				<div id='question' class="row" style="font-size: 24px; min-height: 50px"></div>
+
+				<div class="row">
+				<div class='col s6 offset-s3'>	
+					<button id='btn-next' class='btn grey' onclick="location.reload()">Next</button>
+				</div>
+				</div>
+			</div>
+			
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="/home/index.js"></script>
+</body>
+</html>
