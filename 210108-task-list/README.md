@@ -1,6 +1,6 @@
-## Day 1 - Jan 08, 2021: [[210108]](.) TaskList
+## Day 1 - Jan 08, 2021: [210108 - Task List](.)
 
-Demo page: [Task List](https://nguyennganhi.github.io/mindx-web-fullstack-w46/210108/TaskList)
+Demo page: [Task List](https://nguyennganhi.github.io/mindx-web-fullstack-w46/210108-task-list)
 
 * Add new task (validate if the task is empty)
 * Display added tasks in a list
