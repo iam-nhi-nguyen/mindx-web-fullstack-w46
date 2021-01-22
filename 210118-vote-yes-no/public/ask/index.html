@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <title>Ask Question</title>
+</head>
+<body>
+  <div class="container">
+  <div class="row">
+  <div class="col s12">
+    <div class="card">
+
+      <!--Navigation bar-->
+			<nav class='teal'>
+      <div class='nav-wrapper'>
+        <ul id='nav-mobile' class='left'>
+          <li><a href='/'>Home Page</a></li>
+          <li><a href='/ask'>Ask Question</a></li>
+        </ul>
+      </div>
+      </nav>
+
+      <!--Ask a new question-->
+      <div class="card-action">
+        <span class="card-title">
+          Ask a question
+        </span>
+        <p class='teal-text' style='padding-bottom: 10px'>Submit a new closed (yes/no) question for everyone to answer</p>
+        
+        <form id="form-question">
+          <textarea class="materialize-textarea" id="create-question" placeholder="does god exist?" maxlength="200"></textarea>
+          <p id="char-left" style="text-align: right">200/200</p>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="/ask/index.js"></script>
+</body>
+</html>
