@@ -33,7 +33,7 @@ Demo page: [GitHub User Card](https://nguyennganhi.github.io/mindx-web-fullstack
 * In the page `Ask Question`, users can enter yes/no questions for others to answer
 * Questions are limited to 200 characters (with a remaining-character-counter); pasted questions that are too long are sliced to exactly 200 characters
 * Check for empty duplicated questions
-* After an user submitted a valid question (which is stored in [210118-vote-yes-no/data.json](data.json)), they are redirected to the `Home Page`
+* After an user submitted a valid question (which is stored in [data.json](210118-vote-yes-no/data.json)), they are redirected to the `Home Page`
 * A random previously asked question will appear
 * When an user vote `yes` or `no` on a question, the total number of yes votes and no votes will appear, and the next question will be loaded after a couple of second
 * Users can also choose `next` to skip a question
