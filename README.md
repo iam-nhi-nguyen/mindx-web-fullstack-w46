@@ -1,7 +1,7 @@
 # MindX - Web Fullstack - W46
 Homework for MindX Web Fullstack course.
 
-## Day 1 - Jan 08, 2021: [210108 - Task List](.)
+## Day 1 - Jan 08, 2021: [[210108 - Task List]](210108-task-list)
 
 Demo page: [Task List](https://nguyennganhi.github.io/mindx-web-fullstack-w46/210108-task-list)
 
@@ -12,9 +12,9 @@ Demo page: [Task List](https://nguyennganhi.github.io/mindx-web-fullstack-w46/21
 * Delete individual task
 * Clear all task with popup confirmation
 
-## Day 2 - Jan 11, 2021: [[210111]](210111) UserCard
+## Day 2 - Jan 11, 2021: [[210111 - User Card]](210111-user-card)
 
-Demo page: [GitHub User Card](https://nguyennganhi.github.io/mindx-web-fullstack-w46/210111/UserCard)
+Demo page: [GitHub User Card](https://nguyennganhi.github.io/mindx-web-fullstack-w46/210111-user-card)
 
 * Enter a GitHub username (validate if the username exists)
 * Display the information of that user name using GitHub users API in the form `https://api.github.com/users/{name}` 
